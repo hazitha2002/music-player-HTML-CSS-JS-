@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded",function(){
             
             previous.addEventListener("click",function (){
                 if (index == 1 ){
-                    index = (songList.link.length)-1
+                    index = (songList.link.length)-1;
                     playSong(index)
 
                 }
