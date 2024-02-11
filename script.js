@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded",function(){
 //Functioning   
             
 
-            next.addEventListener("click",function playNextSong(){
+            next.addEventListener("click",function (){
                 if (index == (songList.link.length)-1){
                     index = 1
                     playSong(index)
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
                 
             
-            previous.addEventListener("click",function playNextSong(){
+            previous.addEventListener("click",function (){
                 if (index == 1 ){
                     index = (songList.link.length)-1
                     playSong(index)
