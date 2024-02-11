@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded",function(){
             let songList = {
                 name:[[".."],["Salli"],["Hama Heenema"],["Dawasak Ewi"],["Bala Walapemi"]],
                 artist:[[".."],["Sarith & Surith"],["Priyath rajapakshe"],["Yuki Nawarathne"],["Costa x Master D"]],
-                link:[[".."],["salli"],["hama"],["dawasak"],["bala"]],
+                link:[[".."],["Salli"],["hama"],["dawasak"],["bala"]],
                 image:[[".."],["salli"],["hama"],["dawasak"],["bala"]],
                 
 
