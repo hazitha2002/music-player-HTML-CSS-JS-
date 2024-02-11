@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded",function(){
             let songList = {
                 name:[[".."],["Salli"],["Hama Heenema"],["Dawasak Ewi"],["Bala Walapemi"]],
                 artist:[[".."],["Sarith & Surith"],["Priyath rajapakshe"],["Yuki Nawarathne"],["Costa x Master D"]],
-                link:[[".."],["salli"],["hama"],["dawasak"],["bala"]],
+                link:[[".."],["Salli"],["hama"],["dawasak"],["bala"]],
                 image:[[".."],["salli"],["hama"],["dawasak"],["bala"]],
                 
 
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded",function(){
 //Functioning   
             
 
-            next.addEventListener("click",function playNextSong(){
+            next.addEventListener("click",function (){
                 if (index == (songList.link.length)-1){
                     index = 1
                     playSong(index)
@@ -114,9 +114,9 @@ document.addEventListener("DOMContentLoaded",function(){
 
                 
             
-            previous.addEventListener("click",function playNextSong(){
+            previous.addEventListener("click",function (){
                 if (index == 1 ){
-                    index = (songList.link.length)-1
+                    index = (songList.link.length)-1;
                     playSong(index)
 
                 }
