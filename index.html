@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kdam+Thmor+Pro&family=Phudu:wght@300&family=Tilt+Neon&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <title>MUSIC PLAYER</title>
+    <script src="https://kit.fontawesome.com/174e4c5370.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="music-player">
+                <nav>
+                    <div class="nav-items">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div id="menuBtn"  class="nav-items">
+                        <i id="menuIcon" class="fa-solid fa-music"></i>
+                    </div>
+                    <div id="menu" style="display : none;"  ;>
+                    
+                        <div id="menuItems">
+                            <p></p>
+                            <hr>
+                            <div id="song1" class="menuSong" >
+                                <img  src="content/salli.jpeg"  alt="">
+                                <span> Salli <br> [ Sarith & Surith ] </span>
+                            </div>
+                            <hr>
+                            <div id="song2" class="menuSong">
+                                <img src="content/hama.jpeg"  alt="">
+                                <span> Hama Heenema <br> [ Priyath rajapakshe ] </span>
+                            </div>
+                            <hr>
+                            <div id="song3" class="menuSong">
+                                <img src="content/dawasak.jpeg"  alt="">
+                                <span> Dawasak Ewi <br> [ Yuki Nawarathne ] </span>
+                            </div>
+                            <hr>
+
+                            <div id="song4" class="menuSong">
+                                <img src="content/bala.jpeg"  alt="">
+                                <span> Bala Walapemi <br> [ Costa x Master D ] </span>
+                            </div>
+                            <hr>
+                            
+                           
+                           
+                        </div>
+                    </div>
+                </nav>
+                
+
+                <div >
+                    <img id="img" class="thumbnail" src="content/salli.jpeg">
+                </div><br>
+                <h1 id="name">Salli</h1>
+                <p id="artist">Sarith & Surith</p>
+                <audio  id="song" autostart="false" src="content/Salli.mp3"></audio>
+                <br>
+                <input type="range" id="progress" value="0">
+                <br><br>
+                <div class="controls">
+                    <div id="previous" class="controls-items"><i class="fa-solid fa-backward"></i></div>
+                    <div id="playdiv"  class="controls-items"><i  id="play" class="fa-solid fa-play"></i></div>
+                    <div id="next" class="controls-items"><i class="fa-solid fa-forward"></i></div>
+                    
+                </div>
+            </div>
+
+        </div> 
+    </body>
+    <script src="script.js"></script>
+
+    
+</html>
