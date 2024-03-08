@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded",function(){
             let img = document.getElementById("img");
 
 
+
+
             let imgUpdateVar ;
             let progressUpdateVar;
             let angle= 0;
@@ -88,7 +90,24 @@ document.addEventListener("DOMContentLoaded",function(){
         
         
 //Functioning   
-            
+            $(document).ready(function() {
+                $("#home").click(function(){
+                    $.get("home.html", function(data) {
+                      document.documentElement.innerHTML = data;
+                    });
+                  }
+                )
+                $("#back").click(function(){
+                    $.get("index.html", function(data) {
+                        document.documentElement.innerHTML = data;
+                    });
+                    }
+                );
+            });
+
+                
+    
+
 
             next.addEventListener("click",function (){
                 if (index == (songList.link.length)-1){

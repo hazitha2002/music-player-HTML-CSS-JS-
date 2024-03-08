@@ -5,18 +5,21 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kdam+Thmor+Pro&family=Phudu:wght@300&family=Tilt+Neon&family=Tilt+Prism&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" >
+    <script src="jquery-3.6.4.js"></script>
+
     <title>RYTHM BEAT</title>
     <script src="https://kit.fontawesome.com/174e4c5370.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
-        <div class="container">
+        <div id="repcontent" class="container">
             
-            <div class="music-player">
+            <div  class="music-player">
                 <nav>
-                    <div class="nav-items">
+                    <div class="nav-items" id="home">
                         <i class="fa-solid fa-house"></i>
                     </div>
+                    
                     <div id="menuBtn"  class="nav-items">
                         <i id="menuIcon" class="fa-solid fa-music"></i>
                     </div>
@@ -24,28 +27,27 @@
                     
                         <div id="menuItems">
                             <p></p>
-                            <hr>
                             <div id="song1" class="menuSong" >
                                 <img  src="content/salli.jpeg"  alt="">
-                                <span> Salli <br> [ Sarith & Surith ] </span>
+                                <span> Salli </span>
+                                <span>Sarith & Surith</span>
                             </div>
-                            <hr>
                             <div id="song2" class="menuSong">
                                 <img src="content/hama.jpeg"  alt="">
-                                <span> Hama Heenema <br> [ Priyath rajapakshe ] </span>
+                                <span> Hama Heenema </span>
+                                <span> Priyath rajapakshe</span>
                             </div>
-                            <hr>
                             <div id="song3" class="menuSong">
                                 <img src="content/dawasak.jpeg"  alt="">
-                                <span> Dawasak Ewi <br> [ Yuki Nawarathne ] </span>
+                                <span> Dawasak Ewi </span>
+                                <span> Yuki Nawarathne</span>
                             </div>
-                            <hr>
 
                             <div id="song4" class="menuSong">
                                 <img src="content/bala.jpeg"  alt="">
-                                <span> Bala Walapemi <br> [ Costa x Master D ] </span>
+                                <span> Bala Walapemi </span>
+                                <span>  Costa x Master D  </span>
                             </div>
-                            <hr>
                             
                            
                            
@@ -73,7 +75,7 @@
 
         </div> 
     </body>
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 
     
 </html>
