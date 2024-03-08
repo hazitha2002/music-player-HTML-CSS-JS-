@@ -172,7 +172,9 @@ font-weight: 5;
     font-weight: 600;
     
     }
+
     ::-webkit-scrollbar{
         appearance: none;
         display: none;
+        width: none;
     }
