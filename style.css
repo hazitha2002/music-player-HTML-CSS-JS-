@@ -81,9 +81,7 @@ nav  :nth-child(2){
     transform: scale(1.5);
     
 }
-::-webkit-scrollbar{
-    display: none;
-}
+
 #progress{
     width: 100%;
     justify-content: center;
@@ -173,4 +171,8 @@ font-weight: 5;
     font-size: 20px;
     font-weight: 600;
     
+    }
+    ::-webkit-scrollbar{
+        appearance: none;
+        display: none;
     }
