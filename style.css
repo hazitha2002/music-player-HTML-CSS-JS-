@@ -7,7 +7,7 @@
     font-family: 'Anton', sans-serif;
     color: rgb(51, 45, 74);
     width: auto;
-    transition: all 1s;
+    transition: all 0.05s;
 
 }
 .container{
