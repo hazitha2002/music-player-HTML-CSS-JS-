@@ -91,6 +91,7 @@ document.addEventListener("DOMContentLoaded",function(){
         
 //Functioning   
             $(document).ready(function() {
+
                 $("#home").click(function(){
                     $.get("home.html", function(data) {
                       document.documentElement.innerHTML = data;
@@ -125,9 +126,20 @@ document.addEventListener("DOMContentLoaded",function(){
                 })
                 next.addEventListener("mousedown",function(){
                     next.style.background = "black"
+
                 })
                 next.addEventListener("mouseup",function(){
                     next.style.background = "white"
+
+                })
+
+                next.addEventListener("touchstart",function(){
+                    next.style.background = "black"
+
+                })
+                next.addEventListener("touchend",function(){
+                    next.style.background = "white"
+
                 })
                 
 
@@ -150,6 +162,15 @@ document.addEventListener("DOMContentLoaded",function(){
             })
             previous.addEventListener("mouseup",function(){
                 previous.style.background = "white"
+            })
+
+            previous.addEventListener("touchstart",function(){
+                previous.style.background = "black"
+
+            })
+            previous.addEventListener("touchend",function(){
+                previous.style.background = "white"
+
             })
             
             song.addEventListener("play",function imgUpdaterPlay(){
